@@ -1084,3 +1084,16 @@ body:not(.home-page) .course-hero h1{
     background:#ffc107;
     color:#001f3f;
 }
+.whatsapp-float{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#25D366;
+    color:white !important;
+    padding:14px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    z-index:9999;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
