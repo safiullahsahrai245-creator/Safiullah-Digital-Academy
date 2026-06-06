@@ -1064,3 +1064,24 @@ body:not(.home-page) .course-hero h1{
         font-size:18px !important;
     }
 }
+.back-btn{
+    position:fixed;
+    top:85px;
+    left:15px;
+    background:#001f3f;
+    color:#ffffff;
+    border:2px solid #ffc107;
+    padding:10px 16px;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    z-index:9999;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    transition:0.3s;
+}
+
+.back-btn:hover{
+    background:#ffc107;
+    color:#001f3f;
+}
