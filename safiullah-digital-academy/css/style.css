@@ -1039,3 +1039,28 @@ body:not(.home-page) .course-hero h1{
         border-color:transparent;
     }
 }
+/* FINAL MOBILE MENU FIX */
+@media screen and (max-width:768px){
+
+    .nav-links{
+        display:none !important;
+        flex-direction:column !important;
+        width:100% !important;
+        margin-top:15px !important;
+        padding:0 !important;
+        list-style:none !important;
+    }
+
+    #menu-check:checked ~ .nav-links{
+        display:flex !important;
+    }
+
+    .nav-links li{
+        margin:8px 0 !important;
+        text-align:center !important;
+    }
+
+    .nav-links a{
+        font-size:18px !important;
+    }
+}
