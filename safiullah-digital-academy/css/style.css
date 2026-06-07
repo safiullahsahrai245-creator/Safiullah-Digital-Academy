@@ -98,7 +98,7 @@ html, body{
 }
 
 .hero-text h2{
-    font-size:150px;
+    font-size:20px;
     line-height:1.2;
 }
 
@@ -108,7 +108,7 @@ html, body{
 
 .hero-text p{
     margin-top:25px;
-    font-size:20px;
+    font-size:200px;
     line-height:1.8;
 }
 
