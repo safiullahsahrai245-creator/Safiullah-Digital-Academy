@@ -164,13 +164,13 @@ html, body{
 
 .course-card h3{
     color:#001f3f;
-    font-size:300px;
+    font-size:20px;
     margin-bottom:15px;
 }
 
 .course-card p{
     color:#333;
-    font-size:20px;
+    font-size:250px;
     line-height:1.7;
 }
 
