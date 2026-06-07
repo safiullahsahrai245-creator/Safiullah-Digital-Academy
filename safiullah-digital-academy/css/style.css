@@ -53,25 +53,34 @@ html, body{
     font-weight:bold;
 }
 
+/* FIX MENU FOR ALL PAGES */
+.main-navbar ul,
 .nav-links{
     display:flex;
+    flex-direction:row;
+    align-items:center;
     gap:20px;
     list-style:none;
     margin:0;
     padding:0;
-    align-items:center;
 }
 
+.main-navbar li{
+    list-style:none;
+}
+
+.main-navbar a,
 .nav-links a{
-    color:#001f3f;
-    text-decoration:none;
+    color:#001f3f !important;
+    text-decoration:none !important;
     font-size:17px;
     font-weight:bold;
     white-space:nowrap;
 }
 
+.main-navbar a:hover,
 .nav-links a:hover{
-    color:#ffc107;
+    color:#ffc107 !important;
 }
 
 /* HERO */
@@ -112,26 +121,6 @@ html, body{
     box-shadow:0 15px 40px rgba(0,0,0,.4);
 }
 
-/* TYPING */
-.home-page .hero-text h2,
-.typing-page .hero-text h2,
-.typing-title{
-    display:inline-block;
-    overflow:hidden;
-    white-space:nowrap;
-    border-right:4px solid #ffc107;
-    animation:typingTitle 3s steps(35,end) forwards, cursorBlink .7s infinite;
-}
-
-@keyframes typingTitle{
-    from{width:0;}
-    to{width:100%;}
-}
-
-@keyframes cursorBlink{
-    50%{border-color:transparent;}
-}
-
 /* BUTTONS */
 .home-btn,
 .course-card a{
@@ -139,19 +128,12 @@ html, body{
     margin-top:18px;
     padding:12px 25px;
     background:#ffc107;
-    color:#001f3f;
-    text-decoration:none;
+    color:#001f3f !important;
+    text-decoration:none !important;
     border-radius:8px;
     font-weight:bold;
     border:none;
     transition:.3s;
-}
-
-.home-btn:hover,
-.course-card a:hover{
-    background:white;
-    color:#001f3f;
-    transform:translateY(-3px);
 }
 
 /* COURSES */
@@ -179,12 +161,6 @@ html, body{
     border-radius:18px;
     box-shadow:0 8px 25px rgba(0,0,0,.12);
     text-align:center;
-    transition:.3s;
-}
-
-.course-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 15px 30px rgba(0,0,0,.2);
 }
 
 .course-card h3{
@@ -285,12 +261,6 @@ footer p{
     margin:10px 0;
 }
 
-footer a{
-    color:#ffc107;
-    text-decoration:none;
-    font-weight:bold;
-}
-
 /* MOBILE */
 @media screen and (max-width:768px){
 
@@ -313,6 +283,7 @@ footer a{
         margin-top:12px;
     }
 
+    .main-navbar ul,
     .nav-links{
         display:none;
         flex-direction:column;
@@ -321,16 +292,17 @@ footer a{
         gap:0;
     }
 
+    #menu-check:checked ~ ul,
     #menu-check:checked ~ .nav-links{
         display:flex;
     }
 
-    .nav-links li{
+    .main-navbar li{
         margin:8px 0;
         text-align:center;
     }
 
-    .nav-links a{
+    .main-navbar a{
         font-size:18px;
         padding:7px 0;
         display:block;
