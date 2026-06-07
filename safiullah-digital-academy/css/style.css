@@ -99,7 +99,7 @@ html, body{
 }
 
 .hero-text h2{
-    font-size:156px;
+    font-size:30px;
     line-height:1.2;
 }
 
@@ -334,4 +334,5 @@ footer p{
     position:fixed;
     top:20px;
     right:10px;
+}
 }
