@@ -36,7 +36,7 @@ html, body{
 
 .brand small{
     display:block;
-    font-size:80px;
+    font-size:20px;
     color:#444;
 }
 
@@ -46,7 +46,7 @@ html, body{
 
 .menu-toggle{
     display:none;
-    font-size:20px;
+    font-size:80px;
     color:#001f3f;
     cursor:pointer;
     font-weight:bold;
