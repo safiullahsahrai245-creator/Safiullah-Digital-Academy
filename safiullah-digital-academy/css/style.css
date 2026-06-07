@@ -26,7 +26,7 @@ html, body{
 
 .brand{
     color:#001f3f;
-    font-size:17px;
+    font-size:15px;
     font-weight:bold;
     line-height:1.2;
 }
@@ -73,7 +73,7 @@ html, body{
 .nav-links a{
     color:#001f3f !important;
     text-decoration:none !important;
-    font-size:17px;
+    font-size:15px;
     font-weight:bold;
     white-space:nowrap;
 }
@@ -99,7 +99,7 @@ html, body{
 }
 
 .hero-text h2{
-    font-size:38px;
+    font-size:20px;
     line-height:1.2;
 }
 
@@ -109,7 +109,7 @@ html, body{
 
 .hero-text p{
     margin-top:25px;
-    font-size:25px;
+    font-size:15px;
     line-height:1.8;
 }
 
@@ -144,7 +144,7 @@ html, body{
 
 .courses h2{
     text-align:center;
-    font-size:32px;
+    font-size:15px;
     color:#001f3f;
     margin-bottom:45px;
 }
@@ -171,7 +171,7 @@ html, body{
 
 .course-card p{
     color:#333;
-    font-size:17px;
+    font-size:15px;
     line-height:1.7;
 }
 
@@ -189,7 +189,7 @@ html, body{
 .contact-form textarea{
     width:100%;
     padding:12px;
-    font-size:16px;
+    font-size:15px;
     border:1px solid #ccc;
     border-radius:8px;
 }
@@ -205,7 +205,7 @@ html, body{
     padding:12px 25px;
     border:none;
     border-radius:8px;
-    font-size:18px;
+    font-size:15px;
     font-weight:bold;
     cursor:pointer;
 }
@@ -213,14 +213,14 @@ html, body{
 /* BACK BUTTON */
 .back-btn{
     position:fixed;
-    top:15px;
-    right:15px;
+    top:10px;
+    right:10px;
     background:#001f3f;
     color:white;
     border:2px solid #ffc107;
     padding:10px 16px;
     border-radius:10px;
-    font-size:16px;
+    font-size:14px;
     font-weight:bold;
     cursor:pointer;
     z-index:9999;
@@ -289,7 +289,7 @@ footer p{
     }
 
     .main-navbar a{
-        font-size:18px;
+        font-size:15px;
         padding:7px 0;
         display:block;
     }
@@ -302,7 +302,7 @@ footer p{
     }
 
     .hero-text h2{
-        font-size:28px;
+        font-size:20px;
         white-space:normal;
         animation:none;
         border-right:none;
@@ -310,7 +310,7 @@ footer p{
     }
 
     .hero-text p{
-        font-size:18px;
+        font-size:15px;
         line-height:1.7;
     }
 
@@ -324,7 +324,7 @@ footer p{
     }
 
     .courses h2{
-        font-size:28px;
+        font-size:20px;
     }
 
     .course-container{
@@ -333,6 +333,6 @@ footer p{
 
    .back-btn{
     position:fixed;
-    top:15px;
-    right:15px;
+    top:10px;
+    right:10px;
 }
